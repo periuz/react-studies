@@ -8,8 +8,12 @@
     "react-dom": "^19.1.0"
   },
   "devDependencies": {
-    "@babel/cli": "^7.27.2", 
-    "@babel/core": "^7.27.4", 
-    "@babel/preset-env": "^7.27.2" 
+    "@babel/cli": "^7.27.2",
+    "@babel/core": "^7.27.4",
+    "@babel/preset-env": "^7.27.2",
+    "@babel/preset-react": "^7.27.1"
+  },
+  "scripts": {
+  "build": "babel src/index.jsx --out-file dist/bundle.js"
   }
 }
